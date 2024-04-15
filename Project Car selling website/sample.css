@@ -1,0 +1,97 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: black;
+    background: url('images/car backg.jpeg') no-repeat center;
+    background-size: cover; /* Ensure image covers entire area */
+    background-position: center; /* Center the background image */
+   
+    .main-content h2 {
+        color: red; /* Customize the color of the heading text */
+        font-size: 40px; /* Set the font size of the heading text to 20 pixels */
+        text-align: center; /* Center-align the content within the section */
+        background-color: white;
+    color: black;
+    }
+    
+    .contact-info {
+        margin: 0; /* Removes default margin */
+        padding: 10px; /* Adds padding for spacing within the container */
+        background-color: #204d67; /* Sets background color */
+        border: 2px solid red; /* Adds a border */
+        border-radius: 8px; /* Rounds the corners of the border */
+    }
+    /* CSS for the description section */
+    .description {
+        text-align: center; /* Aligns text to the center */
+        margin-top: 20px; /* Adds top margin for spacing */
+        font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif; /* Sets the font family */
+        font-size: 24px; /* Sets the font size */
+        font-weight: bold; /* Sets the font weight to bold */
+    }
+
+    .description p {
+        margin: 0; /* Removes default margin */
+        padding: 10px; /* Adds padding for spacing within the container */
+        background-color:black; /* Sets background color */
+        border: 2px solid red; /* Adds a border */
+        border-radius: 15px; /* Rounds the corners of the border */
+    }
+    
+
+
+}
+
+header {
+    background-color: #204d67;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.truck-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.truck-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
